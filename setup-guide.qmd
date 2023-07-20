@@ -1,0 +1,304 @@
+---
+title: "Setup Guide: Install R and RStudio"
+subtitle: ""
+editor: source
+---
+
+`R` is a powerful analytical language and contains a number of useful packages for analyzing data.
+
+`RStudio` is a free and open-source integrated development environment (IDE) for R. `RStudio` provides comprehensive facilities to `R` programmers and is highly recommended in this class.
+
+## Installing `R`
+
+We recommend installing the most recent version or `R` -- `4.2.3` as of March 18, 2023 **If you have had installed `R` already some time ago, we recommend updating/reinstalling it to the most recent version.** Use a link below to launch download of `R` installers (if the download does not start, a fix may be to copy-paste the below link to your browser):
+
+-   For Mac users: <https://cran.r-project.org/bin/macosx/>
+
+-   For Windows users: <https://cran.r-project.org/bin/windows/base/R-4.2.3-win.exe>
+
+-   For Ubuntu users: 
+<https://cran.r-project.org/bin/linux/ubuntu/>
+
+For other operating systems, or if you prefer to access the download link from the official website, visit <http://cran.us.r-project.org> and select `Download R for Linux`, `Download R for macOS` or `Download R for Windows` based on which device you have.
+
+Once the proper installation package has been selected, run the package and follow the on-screen directions. This installation includes the `R` language and a graphical user interface (GUI). Rather using the GUI, we recommend installing `RStudio` - an integrated development environment (IDE) that lets you interact with `R` with some added benefits.
+
+## Installing `RStudio` 
+
+To install `RStudio`, visit <https://posit.co/download/rstudio-desktop/>. Once on the website, select `DOWNLOAD` tab (upper left corner), scroll down and click `Download` under the `RStudio Desktop` -- `Free` version (1st out of 4 columns), and select the proper installation file for your platform (Windows or Mac).
+
+When you open up `RStudio`, it should look like this:
+
+![](images/RStudio_console.png)
+
+Click the top left button to create a new script:
+
+![](images/New_script_click.png)
+
+`RStudio`, should now look like this:
+
+![](images/RStudio_4panes.png)
+
+There are four main windows.
+
+-   The **console** is the lower-left window where you can run lines of code and see the output.
+
+-   The **script window** is the upper-left window where you can edit and write scripts or markdown documents. From the script window, you can run the current line of code in your script (or multiple lines if you highlight multiple rows) by pressing
+
+    -   `CMD` + `Return` on Mac
+    -   `CTRL` + `Enter` on Windows
+
+-   The **workspace** is the upper-right window where you can manage your data and variables and see previous commands entered (under the history tab).
+
+-   The **plots** window allows you to see the output of plots. On the other tabs, you can also look at directories, install packages, and look at help files for various `R` commands.
+
+You can customize the look of your RStudio IDE in `Tools > Global Options...`.
+
+## `R` Packages 
+
+Packages are the fundamental units of reproducible `R` code. They are collections of `R` code that typically share some common purpose. Examples:
+
+-   `dplyr` - package of functions for fast data set manipulation (subsetting, summarizing, rearranging, and joining together data sets);
+
+-   `ggplot2` - "R's famous package for making beautiful graphics"; allows to build multiple-layers, highly customizable plots.
+
+
+## Installing and Loading `R` Packages 
+
+-   To install an `R` package, type in the `RStudio` console
+
+        install.packages("replace_with_package_name")
+
+    and press enter to execute the command.
+
+-   Once a package is installed, to use its contents in current `R` session, we run in the `RStudio` console the command
+
+        library(replace_with_package_name)
+
+(Note the difference in presence of the quotation mark in the two above commands.)
+
+
+
+## Working with R -- RStudio
+
+RStudio is an Integrated Development Environment (IDE) for R
+
+-   It helps the user effectively use R
+-   Makes things easier
+-   Is NOT a dropdown statistical tool (such as Stata)
+    -   See [Rcmdr](https://cran.r-project.org/web/packages/Rcmdr/index.html) or [Radiant](http://vnijs.github.io/radiant/)
+-   All R Studio snapshots are taken from <http://ayeimanol-r.net/2013/04/21/289/>
+
+```{r, fig.alt="RStudio logo", out.width = "30%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("https://d33wubrfki0l68.cloudfront.net/62bcc8535a06077094ca3c29c383e37ad7334311/a263f/assets/img/logo.svg")
+```
+
+<sub>[[source](https://www.rstudio.com/)]</sub>
+
+## RStudio
+
+Easier working with R
+
+-   Syntax highlighting, code completion, and smart indentation
+-   Easily manage multiple working directories and projects
+
+More information
+
+-   Workspace browser and data viewer
+-   Plot history, zooming, and flexible image and file export
+-   Integrated R help and documentation
+-   Searchable command history
+
+## RStudio
+
+```{r, fig.alt="RStudio", out.width = "80%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("https://ayeimanolr.files.wordpress.com/2013/04/r-rstudio-1-1.png?w=640&h=382")
+```
+
+<!-- ## RStudio/R Console ![Console](images/r-rstudio-1-3-console.png) -->
+
+## Getting the editor
+
+```{r, out.width = "90%", echo = FALSE}
+knitr::include_graphics("images/both.png")
+```
+
+## Working with R in R Studio - 2 major panes:
+
+1)  The **Source/Editor**: "Analysis" Script + Interactive Exploration
+    -   Static copy of what you did (reproducibility)
+    -   Top by default
+2)  The **R Console**: "interprets" whatever you type
+    -   Calculator
+    -   Try things out interactively, then add to your editor
+    -   Bottom by default
+
+## Source / Editor
+
+-   Where files open to
+-   Have R code and comments in them
+-   Can highlight and press (CMD+Enter (Mac) or Ctrl+Enter (Windows)) to run the code
+
+In a .R file (we call a script), code is saved on your disk
+
+```{r, out.width = "90%", echo = FALSE}
+knitr::include_graphics("images/rstudio_script.png")
+```
+
+<!-- ## Workspace/Environment ![Workspace](images/r-rstudio-1-ggplot-point-2.png) -->
+
+## R Console
+
+<!-- ![Console](images/rstudio_console.png) -->
+
+```{r, out.width = "60%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/rstudio_console.png")
+```
+
+-   Where code is executed (where things happen)
+-   You can type here for things interactively
+-   Code is **not saved** on your disk
+
+## RStudio
+
+Super useful "cheat sheet": <https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf>
+
+```{r, fig.alt="RStudio", out.width = "65%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/rstudio_sheet.png")
+```
+
+## RStudio layout
+
+```{r, fig.alt="RStudio layout", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/first_markdown.png")
+```
+
+## RStudio Layout
+
+If RStudio doesn't look the way you want (or like our RStudio), then do:
+
+RStudio --\> Preferences --\> Pane Layout
+
+```{r, out.width = "500px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/pane_layout.png")
+```
+
+<!-- ## Source/Editor ![Script](images/r-rstudio-1-3-script.png) -->
+
+## Workspace/Environment
+
+<!-- ![Workspace](images/rstudio_environment.png) -->
+
+```{r, out.width = "90%", echo = FALSE}
+knitr::include_graphics("images/rstudio_environment.png")
+```
+
+## Workspace/Environment
+
+-   Tells you what **objects** are in R
+-   What exists in memory/what is loaded?/what did I read in?
+
+**History**
+
+-   Shows previous commands. Good to look at for debugging, but **don't rely** on it.\
+    Instead use RMarkdown!
+-   Also type the "up" key in the Console to scroll through previous commands
+
+## Other Panes
+
+-   **Files** - shows the files on your computer of the directory you are working in
+-   **Viewer** - can view data or R objects
+-   **Help** - shows help of R commands
+-   **Plots** - pictures and figures
+-   **Packages** - list of R packages that are loaded in memory
+
+# Let's take a look at R Studio ourselves!
+
+
+## R Markdown file
+
+R Markdown files (.Rmd) help generate reports that include your code and output. Think of them as fancier scripts.
+
+1.  Helps you describe your code
+2.  Allows you to check the output
+3.  Can create many different file types
+
+## Create an R Markdown file
+
+Go to File → New File → R Markdown
+
+Call your file "first_markdown"
+
+```{r, out.width = "40%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/RMarkdown.png")
+```
+
+## Code chunks
+
+Within R Markdown files are code "chunks"
+
+This is where you can type R code and run it!
+
+```{r, out.width = "80%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/chunk.png")
+```
+
+## Create Chunks
+
+To create a new R code chunk:
+
+Copy paste an existing chunk in the R Markdown file and replace the code **OR**
+
+1)  Use the insert code chunk button at the top of RStudio.
+
+```{r, out.width = "80%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/insert_chunk.png")
+```
+
+2)  Select R as the language:
+
+```{r, out.width = "13%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/select_R.png")
+```
+
+## Run previous chunks button
+
+You can run all chunks above a specific chunk using this button:
+
+```{r echo=FALSE, fig.align='center', out.width="80%"}
+knitr::include_graphics("images/previous_chunks.png")
+```
+
+## Chunk settings
+
+```{r echo=FALSE, fig.align='center', out.width="80%"}
+knitr::include_graphics("images/chunk_settings.png")
+```
+
+## Chunk settings
+
+You can specify if a chunk will be seen in the report or not.
+
+```{r echo=FALSE, fig.align='center', out.width="80%"}
+knitr::include_graphics("images/chunk_settings2.png")
+```
+
+## Knit file to html
+
+This will create a report from the R Markdown document!
+
+```{r, fig.alt="knit", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/knit.png")
+```
+
+## Useful R Studio Shortcuts
+
+-   `Ctrl + Enter` in your script evaluates that line of code
+    -   It's like copying and pasting the code into the console for it to run.
+-   `Ctrl+1` takes you to the script page
+-   `Ctrl+2` takes you to the console
+-   <http://www.rstudio.com/ide/docs/using/keyboard_shortcuts>
+
+
+
+

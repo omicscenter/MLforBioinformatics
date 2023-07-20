@@ -1,0 +1,51 @@
+---
+pagetitle: "Course site"
+title: "Title of Your Workshop Session"
+editor: source
+---
+
+------------------------------------------------------------------------
+Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)
+
+🗓 July 16 - July 31, 2023 \| 9:00 pm - 11:00pm (Bangladesh Time)
+
+🏨 Medium - Zoom/Google Meet
+
+💥 **Register** with [Google Forms](https://forms.gle/hSH1ACSqDYYVsxie6)
+
+💥 **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)
+
+📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
+------------------------------------------------------------------------
+
+# Welcome!
+
+-   The goal of the workshop is to ... (*insert your message*)
+-   For example, introduce kep concepts in machine learning, such as regularisation.
+-   Workshop material can be found in the workshop [github repository](https://github.com).
+
+#### Learning Objectives
+
+At the end of the tutorial, participants will be able to
+
+-   understand key concepts for ... (*insert your message*)
+-   For example, training machine learning models such as regularisation.
+-   another objective
+
+#### Pre-requisites
+
+-   Basic familiarity with R
+-   Some other knowledge
+
+# Schedule
+
+::: callout-tip
+## Tabular schedule
+
+It can be useful to include a tabular schedule with links.
+:::
+
+|     Time      |                       Topic                       |    Presenter    |
+|:----------------:|:-----------------------------------:|:----------------:|
+| 9:00 - 10:30  |     [Session 1: Preparation](part_1_prep.qmd)     |  Instructor A   |
+| 10:45 - 12:00 | [Session 2: Exploratory Analysis](part_2_eda.qmd) | Instructor B, C |

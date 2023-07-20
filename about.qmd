@@ -1,0 +1,44 @@
+---
+title: "About"
+format: 
+  html:
+    code-fold: true 
+    code-tools: false
+editor: source
+---
+
+::: callout-tip
+## Who We Are: CHIRAL Bangladesh
+
+[Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.org/) is a voluntary non-profit research organization, resolving to promote interdisciplinary research in the field of health data science, computational biology and genomics.
+:::
+
+
+::: callout-tip
+## OMICS Center 
+
+We are an interdisciplinary research group at the [Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.org/). The mission of [OMICS Center](https://omicscenter.github.io/) is to advance scientific knowledge and improve human health through cutting-edge OMICS research.
+:::
+
+
+
+## Instructor 
+### Bio
+![](images/JHossain.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Jubayer" width="200"}
+
+Hi, I am [Jubayer](https://hossainlab.github.io/), a highly motivated biomedical research enthusiasts with a Master of Science in Microbiology focus on public health and health data science. Research experience designing and implementing projects for biomedical data analysis (including next‑generation sequencing, RNA‑seq , and ssRNA‑seq ). I am interested in applying machine learning/deep learning tools and techniques in the context of disease diagnosis and large data analytics for public health while focusing on bridging the gap between computational and experimental laboratories through highly engaging and fruitful collaborations
+
+Python is my primary language for data analysis and machine learning. I also have a basic understanding of R, Julia, SPSS, QGIS, and SQL.
+
+This [page](https://hossainlab.github.io/) highlights my teaching and research projects. Please reach out if you want to collaborate or have questions.
+
+### Skills 
+**Programming Languages:** Python, R, SQL, Julia, JavaScript; **Data Science:** scikit-learn, PyCaret, Dask, PySpark; **GIS & Remote Sensing:** ArcGIS, Geopandas, Xarray, Giovani; **Analytics Softwares:** SPSS, PowerBI, Microsoft Excel; **Survey Tools:** RedCap, KoboToolBox, EpiCollect, Google Forms; **Academic Writing Tools:** Microsoft Word, LaTeX, Mendeley; **Bioinformatics:** BioPython, Bioconductor, BioPandas, Galaxy, NGS, RNASeq, ssRNASeq; **Miscellaneous Skills:** UNIX, Version Control(Git), Web Scraping, APIs.
+
+
+### Selected Publications 
+1. **Hossain, M.J.**, Islam, M.W., Munni, U.R. et al. Health-related quality of life among thalassemia patients in Bangladesh using the SF-36 questionnaire. Scientific Reports 13, 7734 (2023). <https://doi.org/10.1038/s41598-023-34205-9>
+2. Towhid, S. T., **Hossain, M. J.**, Sammo, M. A. S., & Akter, S. (2022). Perception of Students on Antibiotic Resistance and Prevention: An Online, Community-Based Case Study from Dhaka, Bangladesh. European Journal of Biology and Biotechnology, 3(3), 14–19. <https://doi.org/10.24018/ejbio.2022.3.3.341>
+3. **Hossain, M.J.**, Towhid ST, Sultana S, Mukta SA, Gulshan R, Miah MS (2022). *Knowledge and Attitudes towards Thalassemia among Public University Students in Bangladesh*. Microbial Bioactives, 5(2), <https://doi.org/10.25163/microbbioacts.526325>.
+
+

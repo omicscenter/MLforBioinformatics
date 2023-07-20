@@ -1,0 +1,534 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Title of Your Workshop Session",
+    "section": "",
+    "text": "Instructor: Md. Jubayer Hossain\n\n\n🗓 July 16 - July 31, 2023 | 9:00 pm - 11:00pm (Bangladesh Time)\n\n\n🏨 Medium - Zoom/Google Meet\n\n\n💥 Register with Google Forms\n\n\n💥 Registration Fee: 1020 BDT (for students),1530BDT (for professionals)\n\n\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration.\n\n\n\n\nWelcome!\n\nThe goal of the workshop is to … (insert your message)\nFor example, introduce kep concepts in machine learning, such as regularisation.\nWorkshop material can be found in the workshop github repository.\n\n\nLearning Objectives\nAt the end of the tutorial, participants will be able to\n\nunderstand key concepts for … (insert your message)\nFor example, training machine learning models such as regularisation.\nanother objective\n\n\n\nPre-requisites\n\nBasic familiarity with R\nSome other knowledge\n\n\n\n\nSchedule\n\n\n\n\n\n\nTabular schedule\n\n\n\nIt can be useful to include a tabular schedule with links.\n\n\n\n\n\nTime\nTopic\nPresenter\n\n\n\n\n9:00 - 10:30\nSession 1: Preparation\nInstructor A\n\n\n10:45 - 12:00\nSession 2: Exploratory Analysis\nInstructor B, C"
+  },
+  {
+    "objectID": "part_2_eda.html",
+    "href": "part_2_eda.html",
+    "title": "Part I",
+    "section": "",
+    "text": "Page with R code\n\n\n\nThis page contains an example template for a lab session, where R code and results are displayed here.\nYou can find more information on how to include code in Quarto website here.\nYou can experiment with code-fold and code-tools in the yaml header above to change how the code cells look like."
+  },
+  {
+    "objectID": "part_2_eda.html#a-cancer-modeling-example",
+    "href": "part_2_eda.html#a-cancer-modeling-example",
+    "title": "Part I",
+    "section": "A Cancer Modeling Example",
+    "text": "A Cancer Modeling Example\nExercise on analysis of miRNA, mRNA and protein data from the paper Aure et al, Integrated analysis reveals microRNA networks coordinately expressed with key proteins in breast cancer, Genome Medicine, 2015.\nPlease run the code provided to replicate some of the analyses. Make sure you can explain what all the analysis steps do and that you understand all the results.\nIn addition, there are some extra tasks (Task 1), where no R code is provided. Please do these tasks when you have time available at the end of the lab.\n\nLoad the data\nRead the data, and convert to matrix format.\n\nmrna &lt;- read.table(\"data/data_example.txt\", header=T, sep=\"\\t\", dec=\".\")\n\n# Convert to matrix format\n\nmrna &lt;- as.matrix(mrna)\n\nPrint the data\n\nmrna[1:4, 1:4]\n\n      OSL2R.3002T4 OSL2R.3005T1 OSL2R.3013T1 OSL2R.3030T2\nACACA      1.60034     -0.49087     -0.26553     -0.27857\nANXA1     -2.42501     -0.05416     -0.46478     -2.18393\nAR         0.39615     -0.43348     -0.10232      0.58299\nBAK1       0.78627      0.39897      0.22598     -1.31202\n\n\nVisualise the overall distribution of expression levels by histogram\n\nhist(mrna, nclass=40, xlim=c(-5,5), col=\"lightblue\")\n\n\n\n\n\n\n\n\n\n\nTask 1\n\n\n\nThis is a callout-note, and it can be quite useful for exercises. You can find more about callout here.\nExample: Extend the above analysis to cover all genes."
+  },
+  {
+    "objectID": "part_1_prep.html",
+    "href": "part_1_prep.html",
+    "title": "Preparation",
+    "section": "",
+    "text": "Page without code\n\n\n\nThis page contains an example for some structured preparation information for a workshop. No code is executed here.\nHere are some preparation information for the participants."
+  },
+  {
+    "objectID": "part_1_prep.html#software",
+    "href": "part_1_prep.html#software",
+    "title": "Preparation",
+    "section": "Software",
+    "text": "Software\nIn this workshop we will be using R. You can either\n\nhave R and Rstudio installed on your laptop\nor, use Posit cloud (formerly Rstudio Cloud).\n\nPosit cloud is free of charge for personal users, yet you need to sign up for a new user account and have internet connection.\nThe R package we are using is glmnet."
+  },
+  {
+    "objectID": "part_1_prep.html#data",
+    "href": "part_1_prep.html#data",
+    "title": "Preparation",
+    "section": "Data",
+    "text": "Data\nThe datasets we use can be found here (insert link)."
+  },
+  {
+    "objectID": "part_1_prep.html#code",
+    "href": "part_1_prep.html#code",
+    "title": "Preparation",
+    "section": "Code",
+    "text": "Code\nThe R scripts used in part 1 and part 2 can be found here (insert link)."
+  },
+  {
+    "objectID": "part_1_prep.html#resources",
+    "href": "part_1_prep.html#resources",
+    "title": "Preparation",
+    "section": "Resources",
+    "text": "Resources\nLecture notes (insert link)\nLab notes (insert link)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Who We Are: CHIRAL Bangladesh\n\n\n\nCenter for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh) is a voluntary non-profit research organization, resolving to promote interdisciplinary research in the field of health data science, computational biology and genomics."
+  },
+  {
+    "objectID": "prework.html",
+    "href": "prework.html",
+    "title": "Preparation",
+    "section": "",
+    "text": "Page without code\n\n\n\nThis page contains an example for some structured preparation information for a workshop. No code is executed here.\nHere are some preparation information for the participants."
+  },
+  {
+    "objectID": "prework.html#software",
+    "href": "prework.html#software",
+    "title": "Preparation",
+    "section": "Software",
+    "text": "Software\nIn this workshop we will be using R. You can either\n\nhave R and Rstudio installed on your laptop\nor, use Posit cloud (formerly Rstudio Cloud).\n\nPosit cloud is free of charge for personal users, yet you need to sign up for a new user account and have internet connection.\nThe R package we are using is glmnet."
+  },
+  {
+    "objectID": "prework.html#data",
+    "href": "prework.html#data",
+    "title": "Preparation",
+    "section": "Data",
+    "text": "Data\nThe datasets we use can be found here (insert link)."
+  },
+  {
+    "objectID": "prework.html#code",
+    "href": "prework.html#code",
+    "title": "Preparation",
+    "section": "Code",
+    "text": "Code\nThe R scripts used in part 1 and part 2 can be found here (insert link)."
+  },
+  {
+    "objectID": "prework.html#resources",
+    "href": "prework.html#resources",
+    "title": "Preparation",
+    "section": "Resources",
+    "text": "Resources\nLecture notes (insert link)\nLab notes (insert link)"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "The Cancer Genome Atlas (TCGA): TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.\nInternational Cancer Genome Consortium (ICGC): Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.\nGene Expression Omnibus (GEO): GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.\nEuropean Genome-phenome Archive (EGA): Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.\nNational Cancer Institute (NCI) Genomic Data Commons (GDC): Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.\nOncoLnc: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.\nUCSC Cancer Genomics Browser: The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.\nGREIN : GEO RNA-seq Experiments Interactive Navigator: GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).\nGEPIA2: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.\nUALCAN: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.\ncBioPortal for Cancer Genomics:: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.\nONCOMINE: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes."
+  },
+  {
+    "objectID": "resources.html#a-cancer-modeling-example",
+    "href": "resources.html#a-cancer-modeling-example",
+    "title": "Part I",
+    "section": "A Cancer Modeling Example",
+    "text": "A Cancer Modeling Example\nExercise on analysis of miRNA, mRNA and protein data from the paper Aure et al, Integrated analysis reveals microRNA networks coordinately expressed with key proteins in breast cancer, Genome Medicine, 2015.\nPlease run the code provided to replicate some of the analyses. Make sure you can explain what all the analysis steps do and that you understand all the results.\nIn addition, there are some extra tasks (Task 1), where no R code is provided. Please do these tasks when you have time available at the end of the lab.\n\nLoad the data\nRead the data, and convert to matrix format.\n\nmrna &lt;- read.table(\"data/data_example.txt\", header=T, sep=\"\\t\", dec=\".\")\n\n# Convert to matrix format\n\nmrna &lt;- as.matrix(mrna)\n\nPrint the data\n\nmrna[1:4, 1:4]\n\n      OSL2R.3002T4 OSL2R.3005T1 OSL2R.3013T1 OSL2R.3030T2\nACACA      1.60034     -0.49087     -0.26553     -0.27857\nANXA1     -2.42501     -0.05416     -0.46478     -2.18393\nAR         0.39615     -0.43348     -0.10232      0.58299\nBAK1       0.78627      0.39897      0.22598     -1.31202\n\n\nVisualise the overall distribution of expression levels by histogram\n\nhist(mrna, nclass=40, xlim=c(-5,5), col=\"lightblue\")\n\n\n\n\n\n\n\n\n\n\nTask 1\n\n\n\nThis is a callout-note, and it can be quite useful for exercises. You can find more about callout here.\nExample: Extend the above analysis to cover all genes."
+  },
+  {
+    "objectID": "resources.html#data-and-tools-for-cancer-genomics",
+    "href": "resources.html#data-and-tools-for-cancer-genomics",
+    "title": "Resources",
+    "section": "",
+    "text": "The Cancer Genome Atlas (TCGA): TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.\nInternational Cancer Genome Consortium (ICGC): Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.\nGene Expression Omnibus (GEO): GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.\nEuropean Genome-phenome Archive (EGA): Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.\nNational Cancer Institute (NCI) Genomic Data Commons (GDC): Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.\nOncoLnc: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.\nUCSC Cancer Genomics Browser: The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.\nGREIN : GEO RNA-seq Experiments Interactive Navigator: GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).\nGEPIA2: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.\nUALCAN: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.\ncBioPortal for Cancer Genomics:: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.\nONCOMINE: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes."
+  },
+  {
+    "objectID": "resources.html#guideline-for-bioconductor-users",
+    "href": "resources.html#guideline-for-bioconductor-users",
+    "title": "Resources",
+    "section": "Guideline for Bioconductor Users",
+    "text": "Guideline for Bioconductor Users\nBioconductor is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more."
+  },
+  {
+    "objectID": "resources.html#required-software",
+    "href": "resources.html#required-software",
+    "title": "Resources",
+    "section": "Required software",
+    "text": "Required software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)"
+  },
+  {
+    "objectID": "resources.html#prework",
+    "href": "resources.html#prework",
+    "title": "Resources",
+    "section": "Prework",
+    "text": "Prework\nBefore attending the any workshop please have the following installed and configured on your machine. - Recent version of R - Recent version of RStudio - Most recent release of the Bioconductor and other packages used in courses\nInstall the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.16\")\n\n\nEnsure you can knit R markdown documents\n\nOpen RStudio and create a new Rmarkdown document\nSave the document and check you are able to knit it."
+  },
+  {
+    "objectID": "resources.html#install-bioconductor-packages",
+    "href": "resources.html#install-bioconductor-packages",
+    "title": "Resources",
+    "section": "Install Bioconductor Packages",
+    "text": "Install Bioconductor Packages\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install()\n\nInstall specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with\n\nBiocManager::install(c(\"GenomicFeatures\", \"AnnotationDbi\"))\n\nThe install() function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help."
+  },
+  {
+    "objectID": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
+    "href": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
+    "title": "Resources",
+    "section": "R Packages RNASeq and Single-cell RNA-seq Analysis",
+    "text": "R Packages RNASeq and Single-cell RNA-seq Analysis\n\nDESeq2: DESeq2 is a widely used package for differential gene expression analysis in RNA-seq data.\nedgeR: edgeR is another popular package for differential gene expression analysis in RNA-seq data.\nlimma: limma is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.\nBallgown: Ballgown is a package for differential expression analysis and visualization of transcriptome assembly data.\nDEXSeq: DEXSeq is specifically designed for the detection of differential exon usage in RNA-seq data.\nNOISeq: NOISeq is a package for non-parametric analysis of differential expression in RNA-seq data.\nclusterProfiler: clusterProfiler is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.\nGenomicFeatures: GenomicFeatures provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.\nSeurat: Seurat is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity."
+  },
+  {
+    "objectID": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
+    "href": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
+    "title": "Resources",
+    "section": "Blogs for R Programming, Statistics, and Data Analyis",
+    "text": "Blogs for R Programming, Statistics, and Data Analyis\n\nProgramiz - https://www.datamentor.io/r-programming/\nPennState STAT 484 - https://online.stat.psu.edu/stat484/\nPennState Topics in R Statistical Language - https://online.stat.psu.edu/stat484/\nSimply Statistics - https://simplystatistics.org/\nTutorialPoint - https://www.tutorialspoint.com/r/index.htm\nR for Biologists - https://www.rforbiologists.org/\nComputational Genomics with R - https://compgenomr.github.io/book/\nStat and R - https://statsandr.com/\nRafa Lab - https://rafalab.github.io/pages/harvardx.html\nUniversity of Florida - https://bolt.mph.ufl.edu/software/r-phc-6055/"
+  },
+  {
+    "objectID": "resources.html#videos",
+    "href": "resources.html#videos",
+    "title": "Resources",
+    "section": "Videos",
+    "text": "Videos\n\nWelcome to the “R for Research” series! In this video, we will dive into the fundamentals of R, a powerful programming language and environment widely used in research and data analysis.R provides comprehensive tools and packages for statistical analysis, data visualization, and data manipulation. Whether you’re a biologist, social scientist, or any researcher looking to harness the power of data, this series will equip you with the necessary skills to leverage R for your research projects.! Check it out: \nIn Part 2, we will continue our exploration of the fundamentals of R, building upon the knowledge gained in Part 1. This video will cover additional essential topics to further enhance your skills in using R for research and data analysis. Check it out:"
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Install R and RStudio",
+    "section": "",
+    "text": "R is a powerful analytical language and contains a number of useful packages for analyzing data.\nRStudio is a free and open-source integrated development environment (IDE) for R. RStudio provides comprehensive facilities to R programmers and is highly recommended in this class."
+  },
+  {
+    "objectID": "setup.html#installing-r",
+    "href": "setup.html#installing-r",
+    "title": "Install R and RStudio",
+    "section": "Installing R",
+    "text": "Installing R\nWe recommend installing the most recent version or R – 4.2.3 as of March 18, 2023 If you have had installed R already some time ago, we recommend updating/reinstalling it to the most recent version. Use a link below to launch download of R installers (if the download does not start, a fix may be to copy-paste the below link to your browser):\n\nFor Mac users: https://cran.r-project.org/bin/macosx/\nFor Windows users: https://cran.r-project.org/bin/windows/base/R-4.2.3-win.exe\nFor Ubuntu users: https://cran.r-project.org/bin/linux/ubuntu/\n\nFor other operating systems, or if you prefer to access the download link from the official website, visit http://cran.us.r-project.org and select Download R for Linux, Download R for macOS or Download R for Windows based on which device you have.\nOnce the proper installation package has been selected, run the package and follow the on-screen directions. This installation includes the R language and a graphical user interface (GUI). Rather using the GUI, we recommend installing RStudio - an integrated development environment (IDE) that lets you interact with R with some added benefits."
+  },
+  {
+    "objectID": "setup.html#installing-rstudio",
+    "href": "setup.html#installing-rstudio",
+    "title": "Install R and RStudio",
+    "section": "Installing RStudio",
+    "text": "Installing RStudio\nTo install RStudio, visit https://posit.co/download/rstudio-desktop/. Once on the website, select DOWNLOAD tab (upper left corner), scroll down and click Download under the RStudio Desktop – Free version (1st out of 4 columns), and select the proper installation file for your platform (Windows or Mac).\nWhen you open up RStudio, it should look like this:\n\nClick the top left button to create a new script:\n\nRStudio, should now look like this:\n\nThere are four main windows.\n\nThe console is the lower-left window where you can run lines of code and see the output.\nThe script window is the upper-left window where you can edit and write scripts or markdown documents. From the script window, you can run the current line of code in your script (or multiple lines if you highlight multiple rows) by pressing\n\nCMD + Return on Mac\nCTRL + Enter on Windows\n\nThe workspace is the upper-right window where you can manage your data and variables and see previous commands entered (under the history tab).\nThe plots window allows you to see the output of plots. On the other tabs, you can also look at directories, install packages, and look at help files for various R commands.\n\nYou can customize the look of your RStudio IDE in Tools &gt; Global Options...."
+  },
+  {
+    "objectID": "setup.html#r-packages",
+    "href": "setup.html#r-packages",
+    "title": "Install R and RStudio",
+    "section": "R Packages",
+    "text": "R Packages\nPackages are the fundamental units of reproducible R code. They are collections of R code that typically share some common purpose. Examples:\n\ndplyr - package of functions for fast data set manipulation (subsetting, summarizing, rearranging, and joining together data sets);\nggplot2 - “R’s famous package for making beautiful graphics”; allows to build multiple-layers, highly customizable plots."
+  },
+  {
+    "objectID": "setup.html#installing-and-loading-r-packages",
+    "href": "setup.html#installing-and-loading-r-packages",
+    "title": "Install R and RStudio",
+    "section": "Installing and Loading R Packages",
+    "text": "Installing and Loading R Packages\n\nTo install an R package, type in the RStudio console\ninstall.packages(\"replace_with_package_name\")\nand press enter to execute the command.\nOnce a package is installed, to use its contents in current R session, we run in the RStudio console the command\nlibrary(replace_with_package_name)\n\n(Note the difference in presence of the quotation mark in the two above commands.)"
+  },
+  {
+    "objectID": "q-and-a.html",
+    "href": "q-and-a.html",
+    "title": "FAQs - R for Research",
+    "section": "",
+    "text": "Q1: Q1: I have no prior programming experience. Can I still take this course?\nAbsolutely! This course is designed specifically for beginners with no prior programming experience. We will start from the basics and guide you through step by step, providing a solid foundation in R programming for research purposes.\nQ2: I usually work with statistical software like SPSS or Stata. Why should I learn R?\nR offers a wide range of advantages for researchers. It is a powerful and flexible programming language specifically designed for data analysis. It has a vast collection of packages and tools for statistical analysis, data visualization, and advanced techniques. Additionally, R is an open-source software, which means it is completely free and has a vibrant community for support and resources.\nQ3: Can I apply what I learn in this course to my specific field of research?\nAbsolutely! This course is designed to be applicable to researchers in any field. While the examples and exercises may be general, the skills and techniques you learn can be applied to your specific research domain. R is widely used across various disciplines, and the course will equip you with the tools and understanding to adapt R to meet the needs of your research.\nQ4: Will this course cover advanced statistical methods and techniques?\nWhile this course is aimed at beginners, it does introduce some advanced techniques in later modules. You will learn about regression analysis, data mining, text analysis, and web scraping. These topics will provide you with a solid foundation, and you can further explore advanced statistical methods in R based on your specific research interests.\nQ5: Will I receive any course materials or resources?\nYes, you will have access to comprehensive course materials, including lecture notes, code examples, and exercises. These materials will serve as a valuable resource for your learning and can be referred to even after completing the course. Additionally, we will provide a list of recommended books, websites, and online tutorials for further learning and exploration.\nQ6: Is there any support available if I encounter difficulties during the course?\nAbsolutely! We understand that learning a new programming language can be challenging. You will have access to a support forum where you can ask questions, seek clarification, and interact with the instructor and other participants. The instructor will also provide guidance and assistance throughout the course to ensure your learning experience is smooth and enjoyable."
+  },
+  {
+    "objectID": "about.html#instructor",
+    "href": "about.html#instructor",
+    "title": "About",
+    "section": "Instructor",
+    "text": "Instructor\n\nBio\n\nHi, I am Jubayer, a highly motivated biomedical research enthusiasts with a Master of Science in Microbiology focus on public health and health data science. Research experience designing and implementing projects for biomedical data analysis (including next‑generation sequencing, RNA‑seq , and ssRNA‑seq ). I am interested in applying machine learning/deep learning tools and techniques in the context of disease diagnosis and large data analytics for public health while focusing on bridging the gap between computational and experimental laboratories through highly engaging and fruitful collaborations\nPython is my primary language for data analysis and machine learning. I also have a basic understanding of R, Julia, SPSS, QGIS, and SQL.\nThis page highlights my teaching and research projects. Please reach out if you want to collaborate or have questions.\n\n\nSkills\nProgramming Languages: Python, R, SQL, Julia, JavaScript; Data Science: scikit-learn, PyCaret, Dask, PySpark; GIS & Remote Sensing: ArcGIS, Geopandas, Xarray, Giovani; Analytics Softwares: SPSS, PowerBI, Microsoft Excel; Survey Tools: RedCap, KoboToolBox, EpiCollect, Google Forms; Academic Writing Tools: Microsoft Word, LaTeX, Mendeley; Bioinformatics: BioPython, Bioconductor, BioPandas, Galaxy, NGS, RNASeq, ssRNASeq; Miscellaneous Skills: UNIX, Version Control(Git), Web Scraping, APIs.\n\n\nSelected Publications\n\nHossain, M.J., Islam, M.W., Munni, U.R. et al. Health-related quality of life among thalassemia patients in Bangladesh using the SF-36 questionnaire. Scientific Reports 13, 7734 (2023). https://doi.org/10.1038/s41598-023-34205-9\nTowhid, S. T., Hossain, M. J., Sammo, M. A. S., & Akter, S. (2022). Perception of Students on Antibiotic Resistance and Prevention: An Online, Community-Based Case Study from Dhaka, Bangladesh. European Journal of Biology and Biotechnology, 3(3), 14–19. https://doi.org/10.24018/ejbio.2022.3.3.341\nHossain, M.J., Towhid ST, Sultana S, Mukta SA, Gulshan R, Miah MS (2022). Knowledge and Attitudes towards Thalassemia among Public University Students in Bangladesh. Microbial Bioactives, 5(2), https://doi.org/10.25163/microbbioacts.526325."
+  },
+  {
+    "objectID": "setup-guide.html",
+    "href": "setup-guide.html",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "",
+    "text": "R is a powerful analytical language and contains a number of useful packages for analyzing data.\nRStudio is a free and open-source integrated development environment (IDE) for R. RStudio provides comprehensive facilities to R programmers and is highly recommended in this class."
+  },
+  {
+    "objectID": "setup-guide.html#installing-r",
+    "href": "setup-guide.html#installing-r",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Installing R",
+    "text": "Installing R\nWe recommend installing the most recent version or R – 4.2.3 as of March 18, 2023 If you have had installed R already some time ago, we recommend updating/reinstalling it to the most recent version. Use a link below to launch download of R installers (if the download does not start, a fix may be to copy-paste the below link to your browser):\n\nFor Mac users: https://cran.r-project.org/bin/macosx/\nFor Windows users: https://cran.r-project.org/bin/windows/base/R-4.2.3-win.exe\nFor Ubuntu users: https://cran.r-project.org/bin/linux/ubuntu/\n\nFor other operating systems, or if you prefer to access the download link from the official website, visit http://cran.us.r-project.org and select Download R for Linux, Download R for macOS or Download R for Windows based on which device you have.\nOnce the proper installation package has been selected, run the package and follow the on-screen directions. This installation includes the R language and a graphical user interface (GUI). Rather using the GUI, we recommend installing RStudio - an integrated development environment (IDE) that lets you interact with R with some added benefits."
+  },
+  {
+    "objectID": "setup-guide.html#installing-rstudio",
+    "href": "setup-guide.html#installing-rstudio",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Installing RStudio",
+    "text": "Installing RStudio\nTo install RStudio, visit https://posit.co/download/rstudio-desktop/. Once on the website, select DOWNLOAD tab (upper left corner), scroll down and click Download under the RStudio Desktop – Free version (1st out of 4 columns), and select the proper installation file for your platform (Windows or Mac).\nWhen you open up RStudio, it should look like this:\n\nClick the top left button to create a new script:\n\nRStudio, should now look like this:\n\nThere are four main windows.\n\nThe console is the lower-left window where you can run lines of code and see the output.\nThe script window is the upper-left window where you can edit and write scripts or markdown documents. From the script window, you can run the current line of code in your script (or multiple lines if you highlight multiple rows) by pressing\n\nCMD + Return on Mac\nCTRL + Enter on Windows\n\nThe workspace is the upper-right window where you can manage your data and variables and see previous commands entered (under the history tab).\nThe plots window allows you to see the output of plots. On the other tabs, you can also look at directories, install packages, and look at help files for various R commands.\n\nYou can customize the look of your RStudio IDE in Tools &gt; Global Options...."
+  },
+  {
+    "objectID": "setup-guide.html#r-packages",
+    "href": "setup-guide.html#r-packages",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "R Packages",
+    "text": "R Packages\nPackages are the fundamental units of reproducible R code. They are collections of R code that typically share some common purpose. Examples:\n\ndplyr - package of functions for fast data set manipulation (subsetting, summarizing, rearranging, and joining together data sets);\nggplot2 - “R’s famous package for making beautiful graphics”; allows to build multiple-layers, highly customizable plots."
+  },
+  {
+    "objectID": "setup-guide.html#installing-and-loading-r-packages",
+    "href": "setup-guide.html#installing-and-loading-r-packages",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Installing and Loading R Packages",
+    "text": "Installing and Loading R Packages\n\nTo install an R package, type in the RStudio console\ninstall.packages(\"replace_with_package_name\")\nand press enter to execute the command.\nOnce a package is installed, to use its contents in current R session, we run in the RStudio console the command\nlibrary(replace_with_package_name)\n\n(Note the difference in presence of the quotation mark in the two above commands.)"
+  },
+  {
+    "objectID": "setup-guide.html#working-with-r-rstudio",
+    "href": "setup-guide.html#working-with-r-rstudio",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Working with R – RStudio",
+    "text": "Working with R – RStudio\nRStudio is an Integrated Development Environment (IDE) for R\n\nIt helps the user effectively use R\nMakes things easier\nIs NOT a dropdown statistical tool (such as Stata)\n\nSee Rcmdr or Radiant\n\nAll R Studio snapshots are taken from http://ayeimanol-r.net/2013/04/21/289/\n\n\n\n\n\n\n\n\n\n\n[source]"
+  },
+  {
+    "objectID": "setup-guide.html#rstudio",
+    "href": "setup-guide.html#rstudio",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "RStudio",
+    "text": "RStudio\nEasier working with R\n\nSyntax highlighting, code completion, and smart indentation\nEasily manage multiple working directories and projects\n\nMore information\n\nWorkspace browser and data viewer\nPlot history, zooming, and flexible image and file export\nIntegrated R help and documentation\nSearchable command history"
+  },
+  {
+    "objectID": "setup-guide.html#rstudio-1",
+    "href": "setup-guide.html#rstudio-1",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "RStudio",
+    "text": "RStudio"
+  },
+  {
+    "objectID": "setup-guide.html#getting-the-editor",
+    "href": "setup-guide.html#getting-the-editor",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Getting the editor",
+    "text": "Getting the editor"
+  },
+  {
+    "objectID": "setup-guide.html#working-with-r-in-r-studio---2-major-panes",
+    "href": "setup-guide.html#working-with-r-in-r-studio---2-major-panes",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Working with R in R Studio - 2 major panes:",
+    "text": "Working with R in R Studio - 2 major panes:\n\nThe Source/Editor: “Analysis” Script + Interactive Exploration\n\nStatic copy of what you did (reproducibility)\nTop by default\n\nThe R Console: “interprets” whatever you type\n\nCalculator\nTry things out interactively, then add to your editor\nBottom by default"
+  },
+  {
+    "objectID": "setup-guide.html#source-editor",
+    "href": "setup-guide.html#source-editor",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Source / Editor",
+    "text": "Source / Editor\n\nWhere files open to\nHave R code and comments in them\nCan highlight and press (CMD+Enter (Mac) or Ctrl+Enter (Windows)) to run the code\n\nIn a .R file (we call a script), code is saved on your disk"
+  },
+  {
+    "objectID": "setup-guide.html#r-console",
+    "href": "setup-guide.html#r-console",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "R Console",
+    "text": "R Console\n\n\n\n\n\n\n\n\n\n\n\nWhere code is executed (where things happen)\nYou can type here for things interactively\nCode is not saved on your disk"
+  },
+  {
+    "objectID": "setup-guide.html#rstudio-2",
+    "href": "setup-guide.html#rstudio-2",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "RStudio",
+    "text": "RStudio\nSuper useful “cheat sheet”: https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf"
+  },
+  {
+    "objectID": "setup-guide.html#rstudio-layout",
+    "href": "setup-guide.html#rstudio-layout",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "RStudio layout",
+    "text": "RStudio layout"
+  },
+  {
+    "objectID": "setup-guide.html#rstudio-layout-1",
+    "href": "setup-guide.html#rstudio-layout-1",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "RStudio Layout",
+    "text": "RStudio Layout\nIf RStudio doesn’t look the way you want (or like our RStudio), then do:\nRStudio –&gt; Preferences –&gt; Pane Layout"
+  },
+  {
+    "objectID": "setup-guide.html#workspaceenvironment",
+    "href": "setup-guide.html#workspaceenvironment",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Workspace/Environment",
+    "text": "Workspace/Environment"
+  },
+  {
+    "objectID": "setup-guide.html#workspaceenvironment-1",
+    "href": "setup-guide.html#workspaceenvironment-1",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Workspace/Environment",
+    "text": "Workspace/Environment\n\nTells you what objects are in R\nWhat exists in memory/what is loaded?/what did I read in?\n\nHistory\n\nShows previous commands. Good to look at for debugging, but don’t rely on it.\nInstead use RMarkdown!\nAlso type the “up” key in the Console to scroll through previous commands"
+  },
+  {
+    "objectID": "setup-guide.html#other-panes",
+    "href": "setup-guide.html#other-panes",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Other Panes",
+    "text": "Other Panes\n\nFiles - shows the files on your computer of the directory you are working in\nViewer - can view data or R objects\nHelp - shows help of R commands\nPlots - pictures and figures\nPackages - list of R packages that are loaded in memory"
+  },
+  {
+    "objectID": "setup-guide.html#r-markdown-file",
+    "href": "setup-guide.html#r-markdown-file",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "R Markdown file",
+    "text": "R Markdown file\nR Markdown files (.Rmd) help generate reports that include your code and output. Think of them as fancier scripts.\n\nHelps you describe your code\nAllows you to check the output\nCan create many different file types"
+  },
+  {
+    "objectID": "setup-guide.html#create-an-r-markdown-file",
+    "href": "setup-guide.html#create-an-r-markdown-file",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Create an R Markdown file",
+    "text": "Create an R Markdown file\nGo to File → New File → R Markdown\nCall your file “first_markdown”"
+  },
+  {
+    "objectID": "setup-guide.html#code-chunks",
+    "href": "setup-guide.html#code-chunks",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Code chunks",
+    "text": "Code chunks\nWithin R Markdown files are code “chunks”\nThis is where you can type R code and run it!"
+  },
+  {
+    "objectID": "setup-guide.html#create-chunks",
+    "href": "setup-guide.html#create-chunks",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Create Chunks",
+    "text": "Create Chunks\nTo create a new R code chunk:\nCopy paste an existing chunk in the R Markdown file and replace the code OR\n\nUse the insert code chunk button at the top of RStudio.\n\n\n\n\n\n\n\n\n\n\n\nSelect R as the language:"
+  },
+  {
+    "objectID": "setup-guide.html#run-previous-chunks-button",
+    "href": "setup-guide.html#run-previous-chunks-button",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Run previous chunks button",
+    "text": "Run previous chunks button\nYou can run all chunks above a specific chunk using this button:"
+  },
+  {
+    "objectID": "setup-guide.html#chunk-settings",
+    "href": "setup-guide.html#chunk-settings",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Chunk settings",
+    "text": "Chunk settings"
+  },
+  {
+    "objectID": "setup-guide.html#chunk-settings-1",
+    "href": "setup-guide.html#chunk-settings-1",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Chunk settings",
+    "text": "Chunk settings\nYou can specify if a chunk will be seen in the report or not."
+  },
+  {
+    "objectID": "setup-guide.html#knit-file-to-html",
+    "href": "setup-guide.html#knit-file-to-html",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Knit file to html",
+    "text": "Knit file to html\nThis will create a report from the R Markdown document!"
+  },
+  {
+    "objectID": "setup-guide.html#useful-r-studio-shortcuts",
+    "href": "setup-guide.html#useful-r-studio-shortcuts",
+    "title": "Setup Guide: Install R and RStudio",
+    "section": "Useful R Studio Shortcuts",
+    "text": "Useful R Studio Shortcuts\n\nCtrl + Enter in your script evaluates that line of code\n\nIt’s like copying and pasting the code into the console for it to run.\n\nCtrl+1 takes you to the script page\nCtrl+2 takes you to the console\nhttp://www.rstudio.com/ide/docs/using/keyboard_shortcuts"
+  },
+  {
+    "objectID": "prework.html#major-concepts",
+    "href": "prework.html#major-concepts",
+    "title": "Preparation",
+    "section": "Major concepts",
+    "text": "Major concepts\n\nPackage - a package in R is a bundle or “package” of code (and or possibly data) that can be loaded together for easy repeated use or for sharing with others.\nFunction - a function is a particular piece of code that allows you to do something in R. You can write your own, use functions that come directly from installing R, or use functions from additional packages.\nArgument - an option that you specify to a function.\nObject - an object is something that can be worked with in R - can be lots of different things!\nVariable something measured or counted that is a characteristic about a sample.\nSample individuals that you have data about - e.g. people, houses, viruses etc.\n\nData frames A collection of variables and samples in a row/column format. Sample = Row, Variable = Column\nTidyverse - This is a newer set of packages designed for data science that can make your code more intuitive as compared to the original older Base R."
+  },
+  {
+    "objectID": "prework.html#functions",
+    "href": "prework.html#functions",
+    "title": "Preparation",
+    "section": "Functions",
+    "text": "Functions\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\ninstall.packages()\ninstall.packages(\"remotes\")\nInstalls packages\n\n\nBase R\nlibrary()\nlibrary(remotes)\nLoads and attaches additional packages to the R environment."
+  },
+  {
+    "objectID": "prework.html#rstudio---major-concepts",
+    "href": "prework.html#rstudio---major-concepts",
+    "title": "Preparation",
+    "section": "RStudio - Major concepts",
+    "text": "RStudio - Major concepts\n\nRStudio - an Integrated Development Environment (IDE) for R - makes it easier to use R.\nSource/Editor - “Analysis” Script + Interactive Exploration - In a .R file (we call a script), code is saved on your disk\nR Console - Where code is executed (where things happen) - Code is not saved on your disk\nWorkspace/Environment - Tells you what objects are in R. What exists in memory/what is loaded?/what did I read in?\nR Markdown - Files (.Rmd) help generate reports that include your code and output.\nR Project - Helps you organize your work. Helps with working directories (discussed later). Allows you to easily know which project you’re on.\nRStudio Keyboard shortcuts"
+  },
+  {
+    "objectID": "prework.html#functions-1",
+    "href": "prework.html#functions-1",
+    "title": "Preparation",
+    "section": "Functions",
+    "text": "Functions\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\nView()\nView(mtcars)\nallows you to view data in a spreadsheet format.\n\n\nBase R\nhead()\nhead(mtcars)\nReturns the top 6 rows of an object in the environment by default. You can specify how many rows you want by including the n =argument.\n\n\nBase R\ntail()\ntail(mtcars)\nReturns the bottom 6 rows of an object in the environment by default. You can specify how many rows you want by including the n = argument."
+  },
+  {
+    "objectID": "prework.html#reproducibility---major-concepts",
+    "href": "prework.html#reproducibility---major-concepts",
+    "title": "Preparation",
+    "section": "Reproducibility - Major concepts",
+    "text": "Reproducibility - Major concepts\n\nReproducibility - A different analyst re-performs the analysis with the same code and the same data and obtains the same result.\nRepeatable - keeping everything the same but repeating the analysis - do we get the same results\nReproducible - using the same data and analysis but in the hands of another researcher - do we get the same results?\nReplicable - with new data do we obtain the same inferences?"
+  },
+  {
+    "objectID": "prework.html#functions-2",
+    "href": "prework.html#functions-2",
+    "title": "Preparation",
+    "section": "Functions",
+    "text": "Functions\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\nsessionInfo()\nsessionInfo()\nReturns the R version information, the OS, and the attached packages in the current R session.\n\n\n\n\nMore resources\n\nThe RMarkdown book\nJenny Bryan’s organizational strategies.\nWrite efficient R code for science.\nReproducibility in Cancer Informatics course"
+  },
+  {
+    "objectID": "cheatsheet.html",
+    "href": "cheatsheet.html",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "Package - a package in R is a bundle or “package” of code (and or possibly data) that can be loaded together for easy repeated use or for sharing with others.\nFunction - a function is a particular piece of code that allows you to do something in R. You can write your own, use functions that come directly from installing R, or use functions from additional packages.\nArgument - an option that you specify to a function.\nObject - an object is something that can be worked with in R - can be lots of different things!\nVariable something measured or counted that is a characteristic about a sample.\nSample individuals that you have data about - e.g. people, houses, viruses etc.\n\nData frames A collection of variables and samples in a row/column format. Sample = Row, Variable = Column\nTidyverse - This is a newer set of packages designed for data science that can make your code more intuitive as compared to the original older Base R.\n\n\n\n\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\ninstall.packages()\ninstall.packages(\"remotes\")\nInstalls packages\n\n\nBase R\nlibrary()\nlibrary(remotes)\nLoads and attaches additional packages to the R environment.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRStudio - an Integrated Development Environment (IDE) for R - makes it easier to use R.\nSource/Editor - “Analysis” Script + Interactive Exploration - In a .R file (we call a script), code is saved on your disk\nR Console - Where code is executed (where things happen) - Code is not saved on your disk\nWorkspace/Environment - Tells you what objects are in R. What exists in memory/what is loaded?/what did I read in?\nR Markdown - Files (.Rmd) help generate reports that include your code and output.\nR Project - Helps you organize your work. Helps with working directories (discussed later). Allows you to easily know which project you’re on.\nRStudio Keyboard shortcuts\n\n\n\n\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\nView()\nView(mtcars)\nallows you to view data in a spreadsheet format.\n\n\nBase R\nhead()\nhead(mtcars)\nReturns the top 6 rows of an object in the environment by default. You can specify how many rows you want by including the n =argument.\n\n\nBase R\ntail()\ntail(mtcars)\nReturns the bottom 6 rows of an object in the environment by default. You can specify how many rows you want by including the n = argument.\n\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibility - A different analyst re-performs the analysis with the same code and the same data and obtains the same result.\nRepeatable - keeping everything the same but repeating the analysis - do we get the same results\nReproducible - using the same data and analysis but in the hands of another researcher - do we get the same results?\nReplicable - with new data do we obtain the same inferences?\n\n\n\n\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\nsessionInfo()\nsessionInfo()\nReturns the R version information, the OS, and the attached packages in the current R session.\n\n\n\n\n\n\n\nThe RMarkdown book\nJenny Bryan’s organizational strategies.\nWrite efficient R code for science.\nReproducibility in Cancer Informatics course"
+  },
+  {
+    "objectID": "cheatsheet.html#major-concepts",
+    "href": "cheatsheet.html#major-concepts",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "Package - a package in R is a bundle or “package” of code (and or possibly data) that can be loaded together for easy repeated use or for sharing with others.\nFunction - a function is a particular piece of code that allows you to do something in R. You can write your own, use functions that come directly from installing R, or use functions from additional packages.\nArgument - an option that you specify to a function.\nObject - an object is something that can be worked with in R - can be lots of different things!\nVariable something measured or counted that is a characteristic about a sample.\nSample individuals that you have data about - e.g. people, houses, viruses etc.\n\nData frames A collection of variables and samples in a row/column format. Sample = Row, Variable = Column\nTidyverse - This is a newer set of packages designed for data science that can make your code more intuitive as compared to the original older Base R."
+  },
+  {
+    "objectID": "cheatsheet.html#functions",
+    "href": "cheatsheet.html#functions",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "Library/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\ninstall.packages()\ninstall.packages(\"remotes\")\nInstalls packages\n\n\nBase R\nlibrary()\nlibrary(remotes)\nLoads and attaches additional packages to the R environment."
+  },
+  {
+    "objectID": "cheatsheet.html#rstudio---major-concepts",
+    "href": "cheatsheet.html#rstudio---major-concepts",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "RStudio - an Integrated Development Environment (IDE) for R - makes it easier to use R.\nSource/Editor - “Analysis” Script + Interactive Exploration - In a .R file (we call a script), code is saved on your disk\nR Console - Where code is executed (where things happen) - Code is not saved on your disk\nWorkspace/Environment - Tells you what objects are in R. What exists in memory/what is loaded?/what did I read in?\nR Markdown - Files (.Rmd) help generate reports that include your code and output.\nR Project - Helps you organize your work. Helps with working directories (discussed later). Allows you to easily know which project you’re on.\nRStudio Keyboard shortcuts"
+  },
+  {
+    "objectID": "cheatsheet.html#functions-1",
+    "href": "cheatsheet.html#functions-1",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "Library/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\nView()\nView(mtcars)\nallows you to view data in a spreadsheet format.\n\n\nBase R\nhead()\nhead(mtcars)\nReturns the top 6 rows of an object in the environment by default. You can specify how many rows you want by including the n =argument.\n\n\nBase R\ntail()\ntail(mtcars)\nReturns the bottom 6 rows of an object in the environment by default. You can specify how many rows you want by including the n = argument."
+  },
+  {
+    "objectID": "cheatsheet.html#reproducibility---major-concepts",
+    "href": "cheatsheet.html#reproducibility---major-concepts",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "Reproducibility - A different analyst re-performs the analysis with the same code and the same data and obtains the same result.\nRepeatable - keeping everything the same but repeating the analysis - do we get the same results\nReproducible - using the same data and analysis but in the hands of another researcher - do we get the same results?\nReplicable - with new data do we obtain the same inferences?"
+  },
+  {
+    "objectID": "cheatsheet.html#functions-2",
+    "href": "cheatsheet.html#functions-2",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "Library/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\nsessionInfo()\nsessionInfo()\nReturns the R version information, the OS, and the attached packages in the current R session.\n\n\n\n\n\n\nThe RMarkdown book\nJenny Bryan’s organizational strategies.\nWrite efficient R code for science.\nReproducibility in Cancer Informatics course"
+  },
+  {
+    "objectID": "cheatsheet.html#intro",
+    "href": "cheatsheet.html#intro",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "Package - a package in R is a bundle or “package” of code (and or possibly data) that can be loaded together for easy repeated use or for sharing with others.\nFunction - a function is a particular piece of code that allows you to do something in R. You can write your own, use functions that come directly from installing R, or use functions from additional packages.\nArgument - an option that you specify to a function.\nObject - an object is something that can be worked with in R - can be lots of different things!\nVariable something measured or counted that is a characteristic about a sample.\nSample individuals that you have data about - e.g. people, houses, viruses etc.\n\nData frames A collection of variables and samples in a row/column format. Sample = Row, Variable = Column\nTidyverse - This is a newer set of packages designed for data science that can make your code more intuitive as compared to the original older Base R.\n\n\n\n\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\ninstall.packages()\ninstall.packages(\"remotes\")\nInstalls packages\n\n\nBase R\nlibrary()\nlibrary(remotes)\nLoads and attaches additional packages to the R environment."
+  },
+  {
+    "objectID": "cheatsheet.html#rstudio",
+    "href": "cheatsheet.html#rstudio",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "RStudio - an Integrated Development Environment (IDE) for R - makes it easier to use R.\nSource/Editor - “Analysis” Script + Interactive Exploration - In a .R file (we call a script), code is saved on your disk\nR Console - Where code is executed (where things happen) - Code is not saved on your disk\nWorkspace/Environment - Tells you what objects are in R. What exists in memory/what is loaded?/what did I read in?\nR Markdown - Files (.Rmd) help generate reports that include your code and output.\nR Project - Helps you organize your work. Helps with working directories (discussed later). Allows you to easily know which project you’re on.\nRStudio Keyboard shortcuts\n\n\n\n\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\nView()\nView(mtcars)\nallows you to view data in a spreadsheet format.\n\n\nBase R\nhead()\nhead(mtcars)\nReturns the top 6 rows of an object in the environment by default. You can specify how many rows you want by including the n =argument.\n\n\nBase R\ntail()\ntail(mtcars)\nReturns the bottom 6 rows of an object in the environment by default. You can specify how many rows you want by including the n = argument."
+  },
+  {
+    "objectID": "cheatsheet.html#reproducibility",
+    "href": "cheatsheet.html#reproducibility",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "Reproducibility - A different analyst re-performs the analysis with the same code and the same data and obtains the same result.\nRepeatable - keeping everything the same but repeating the analysis - do we get the same results\nReproducible - using the same data and analysis but in the hands of another researcher - do we get the same results?\nReplicable - with new data do we obtain the same inferences?\n\n\n\n\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\nsessionInfo()\nsessionInfo()\nReturns the R version information, the OS, and the attached packages in the current R session.\n\n\n\n\n\n\n\nThe RMarkdown book\nJenny Bryan’s organizational strategies.\nWrite efficient R code for science.\nReproducibility in Cancer Informatics course"
+  },
+  {
+    "objectID": "cheatsheet.html#basic-r",
+    "href": "cheatsheet.html#basic-r",
+    "title": "Cheatsheet",
+    "section": "Basic R",
+    "text": "Basic R\n\nMajor concepts\n\nPackage - a package in R is a bundle or “package” of code (and or possibly data) that can be loaded together for easy repeated use or for sharing with others.\nThe R console is a full calculator:\n\n+, -, /, * are add, subtract, divide and multiply\n^ or ** is power\nparentheses – ( and ) – work with order of operations\n%% finds the remainder\n\n# is the comment symbol; nothing to its right is evaluated.\n\n\n\nFunctions\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nBase R\n&lt;-\nx &lt;- 1\nAssigns a name to something in the R environment.\n\n\nBase R\nc()\nx &lt;- c(1, 3)\nCombines values into a vector or list.\n\n\nBase R\nstr(x)\nstr(x)\nGets a summary of the object x structure.\n\n\nBase R\nclass(x)\nclass(x)\nReturns the type of the values in object x.\n\n\nBase R\nprint(x)\nprint(x)\nPrints out contents of x.\n\n\nBase R\nlength(x)\nlength(x)\nReturns how long the object x is."
+  },
+  {
+    "objectID": "cheatsheet.html#data-inputoutput",
+    "href": "cheatsheet.html#data-inputoutput",
+    "title": "Cheatsheet",
+    "section": "Data Input/Output",
+    "text": "Data Input/Output\n\nMajor concepts\n\nDelimited file - columns within the file have boundaries created with some type of punctuation - for example, a csv file stands for comma separated values, thus the columns are delimited or separated by commas. txt files often use tabs.\ntibble – a rectangular data frame, where data are split into rows and columns.\nFile path - where a file lives on your computer (or on the internet) - File paths can be relative or absolute.\nGetting help - For any function, you can write ?FUNCTION_NAME, or help(\"FUNCTION_NAME\") to look at the help file for that function.\nR Projects set the working directory where the .Rproj file is.\nR Markdown files look for file paths relative to where the .Rmd file is located\n\n\n\nFunctions\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nreadr\nread_csv()\ndf &lt;- read_csv(\"http://jhudatascience.org/intro_to_R_class/data/Youth_Tobacco_Survey_YTS_Data.csv\")\nReads in a TSV file from a specified file path. This function can be tailored to read in other common types of files. i.e. read_csv(), read_rds(), etc.\n\n\nTSA\nspec()|spec(mtcars)| Gives specification of column types| |readxl| [read_excel()](https://www.rdocumentation.org/packages/readxl/versions/1.3.1/topics/read_excel)|read_excel(“dataset.xlsx”)| Read in an excel file.| | BaseR| [getwd()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd)|getwd()| Finds the current working directory.| | BaseR| [setwd()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd)|setwd(“Desktop”)`\nChanges the current working directory."
+  }
+]

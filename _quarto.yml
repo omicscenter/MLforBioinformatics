@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: prework.qmd
+        text: Prework
+      - href: setup-guide.qmd
+        text: Setup Guide
+      - href: resources.qmd
+        text: Resources
+      - href: q-and-a.qmd
+        text: FAQs
+    right:
+      - icon: globe
+        href: https://omicscenter.github.io/
+      - icon: github
+        href: https://github.com/omicscenter
+      - icon: facebook
+        href: https://www.facebook.com/omicscenter
+      - icon: linkedin
+        href: https://www.linkedin.com/company/chiral-bangladesh/
+    page-navigation: true
+  page-footer:
+    left: "&copy; Copyright 2022, Md. Jubayer Hossain"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+editor: visual
+

@@ -1,0 +1,30 @@
+---
+title: "FAQs - R for Research"
+subtitle: ""
+editor: source
+---
+
+**Q1:** Q1: I have no prior programming experience. Can I still take this course?
+
+Absolutely! This course is designed specifically for beginners with no prior programming experience. We will start from the basics and guide you through step by step, providing a solid foundation in R programming for research purposes.
+
+**Q2:** I usually work with statistical software like SPSS or Stata. Why should I learn R?
+
+R offers a wide range of advantages for researchers. It is a powerful and flexible programming language specifically designed for data analysis. It has a vast collection of packages and tools for statistical analysis, data visualization, and advanced techniques. Additionally, R is an open-source software, which means it is completely free and has a vibrant community for support and resources.
+
+**Q3:** Can I apply what I learn in this course to my specific field of research?
+
+Absolutely! This course is designed to be applicable to researchers in any field. While the examples and exercises may be general, the skills and techniques you learn can be applied to your specific research domain. R is widely used across various disciplines, and the course will equip you with the tools and understanding to adapt R to meet the needs of your research.
+
+**Q4:** Will this course cover advanced statistical methods and techniques?
+
+While this course is aimed at beginners, it does introduce some advanced techniques in later modules. You will learn about regression analysis, data mining, text analysis, and web scraping. These topics will provide you with a solid foundation, and you can further explore advanced statistical methods in R based on your specific research interests.
+
+**Q5:** Will I receive any course materials or resources?
+
+Yes, you will have access to comprehensive course materials, including lecture notes, code examples, and exercises. These materials will serve as a valuable resource for your learning and can be referred to even after completing the course. Additionally, we will provide a list of recommended books, websites, and online tutorials for further learning and exploration.
+
+**Q6:** Is there any support available if I encounter difficulties during the course?
+
+Absolutely! We understand that learning a new programming language can be challenging. You will have access to a support forum where you can ask questions, seek clarification, and interact with the instructor and other participants. The instructor will also provide guidance and assistance throughout the course to ensure your learning experience is smooth and enjoyable. 
+
