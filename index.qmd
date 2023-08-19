@@ -1,51 +1,56 @@
 ---
-pagetitle: "Course site"
-title: "Title of Your Workshop Session"
+pagetitle: "Machine Learning for Bioinformatics with Python"
+title: "Machine Learning for Bioinformatics with Python"
 editor: source
 ---
 
 ------------------------------------------------------------------------
-Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)
+👨 Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)
 
-🗓 July 16 - July 31, 2023 \| 9:00 pm - 11:00pm (Bangladesh Time)
+🗓 November 16, 2023 - November 29, 2023 \| 9:00 pm - 10:30pm (Bangladesh Time)
 
 🏨 Medium - Zoom/Google Meet
 
-💥 **Register** with [Google Forms](https://forms.gle/hSH1ACSqDYYVsxie6)
+💥 **Register** with [Google Forms](https://forms.gle/C4M9FoTpneFyjhbj8)
 
-💥 **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)
+৳ **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)
 
 📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
 ------------------------------------------------------------------------
 
 # Welcome!
+The "Machine Learning for Bioinformatics with Python" course is designed to provide participants with a solid foundation in applying machine learning techniques to solve complex problems in bioinformatics. Through hands-on exercises and practical examples, participants will learn how to leverage Python's powerful libraries for machine learning to analyze biological data, make predictions, and extract meaningful insights. This course bridges the gap between bioinformatics and machine learning, enabling participants to develop skills at the intersection of these fields.
 
--   The goal of the workshop is to ... (*insert your message*)
--   For example, introduce kep concepts in machine learning, such as regularisation.
--   Workshop material can be found in the workshop [github repository](https://github.com).
 
-#### Learning Objectives
+-   Course material can be found in the workshop [github repository](https://github.com/omicscenter/MLforBioinformatics).
 
-At the end of the tutorial, participants will be able to
 
--   understand key concepts for ... (*insert your message*)
--   For example, training machine learning models such as regularisation.
--   another objective
+## Learning Objectives
 
-#### Pre-requisites
+At the end of the tutorial, participants will be able to: 
 
--   Basic familiarity with R
--   Some other knowledge
+- Understand the Basics of Machine Learning in Bioinformatics
+- Preprocess Biological Data for Machine Learning
+- Explore Feature Selection and Dimensionality Reduction 
+- Implement Classification Algorithms 
+- Perform Regression Analysis on Biological Data 
+- Use Clustering Techniques for Pattern Discovery 
 
-# Schedule
+## Pre-requisites
 
-::: callout-tip
-## Tabular schedule
+-   No programming knowledge is required 
+-   Basic knowledge of bioinformatics 
 
-It can be useful to include a tabular schedule with links.
-:::
-
-|     Time      |                       Topic                       |    Presenter    |
-|:----------------:|:-----------------------------------:|:----------------:|
-| 9:00 - 10:30  |     [Session 1: Preparation](part_1_prep.qmd)     |  Instructor A   |
-| 10:45 - 12:00 | [Session 2: Exploratory Analysis](part_2_eda.qmd) | Instructor B, C |
+## Schedule
+|Day | Date | Session Title | Time | Instructor| 
+|:---:|:----:|:--------------:|:-------:|:------:|
+|Day 1|December 1, 2023|Introduction to Python| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 2|December 3, 2023|Scientific Computing with NumPy: Part 1| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 3|December 5, 2023|Scientific Computing with NumPy: Part 2| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 4|December 7, 2023|Data Wrangling with Pandas: Part 1| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 5|December 9, 2023|Data Wrangling with Pandas: Part 2| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 6|December 11, 2023|Data Visualization with Matplotlib and Seaborn| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 7|December 13, 2023|Machine Learning Concepts| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 8|December 15, 2023|Simplifying Machine Learning with PyCaret: Classification | 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 9|December 17, 2023|Simplifying Machine Learning with PyCaret: Regression  | 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 10|December 19, 2023|Project| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|

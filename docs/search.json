@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Title of Your Workshop Session",
+    "title": "Machine Learning for Bioinformatics with Python",
     "section": "",
-    "text": "Instructor: Md. Jubayer Hossain\n\n\n🗓 July 16 - July 31, 2023 | 9:00 pm - 11:00pm (Bangladesh Time)\n\n\n🏨 Medium - Zoom/Google Meet\n\n\n💥 Register with Google Forms\n\n\n💥 Registration Fee: 1020 BDT (for students),1530BDT (for professionals)\n\n\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration.\n\n\n\n\nWelcome!\n\nThe goal of the workshop is to … (insert your message)\nFor example, introduce kep concepts in machine learning, such as regularisation.\nWorkshop material can be found in the workshop github repository.\n\n\nLearning Objectives\nAt the end of the tutorial, participants will be able to\n\nunderstand key concepts for … (insert your message)\nFor example, training machine learning models such as regularisation.\nanother objective\n\n\n\nPre-requisites\n\nBasic familiarity with R\nSome other knowledge\n\n\n\n\nSchedule\n\n\n\n\n\n\nTabular schedule\n\n\n\nIt can be useful to include a tabular schedule with links.\n\n\n\n\n\nTime\nTopic\nPresenter\n\n\n\n\n9:00 - 10:30\nSession 1: Preparation\nInstructor A\n\n\n10:45 - 12:00\nSession 2: Exploratory Analysis\nInstructor B, C"
+    "text": "👨 Instructor: Md. Jubayer Hossain\n\n\n🗓 November 16, 2023 - November 29, 2023 | 9:00 pm - 10:30pm (Bangladesh Time)\n\n\n🏨 Medium - Zoom/Google Meet\n\n\n💥 Register with Google Forms\n\n\n৳ Registration Fee: 1020 BDT (for students),1530BDT (for professionals)\n\n\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration."
   },
   {
     "objectID": "part_2_eda.html",
@@ -530,5 +530,33 @@
     "title": "Cheatsheet",
     "section": "Data Input/Output",
     "text": "Data Input/Output\n\nMajor concepts\n\nDelimited file - columns within the file have boundaries created with some type of punctuation - for example, a csv file stands for comma separated values, thus the columns are delimited or separated by commas. txt files often use tabs.\ntibble – a rectangular data frame, where data are split into rows and columns.\nFile path - where a file lives on your computer (or on the internet) - File paths can be relative or absolute.\nGetting help - For any function, you can write ?FUNCTION_NAME, or help(\"FUNCTION_NAME\") to look at the help file for that function.\nR Projects set the working directory where the .Rproj file is.\nR Markdown files look for file paths relative to where the .Rmd file is located\n\n\n\nFunctions\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nreadr\nread_csv()\ndf &lt;- read_csv(\"http://jhudatascience.org/intro_to_R_class/data/Youth_Tobacco_Survey_YTS_Data.csv\")\nReads in a TSV file from a specified file path. This function can be tailored to read in other common types of files. i.e. read_csv(), read_rds(), etc.\n\n\nTSA\nspec()|spec(mtcars)| Gives specification of column types| |readxl| [read_excel()](https://www.rdocumentation.org/packages/readxl/versions/1.3.1/topics/read_excel)|read_excel(“dataset.xlsx”)| Read in an excel file.| | BaseR| [getwd()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd)|getwd()| Finds the current working directory.| | BaseR| [setwd()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd)|setwd(“Desktop”)`\nChanges the current working directory."
+  },
+  {
+    "objectID": "index.html#why-r",
+    "href": "index.html#why-r",
+    "title": "Machine Learning for Bioinformatics with Python",
+    "section": "Why R?",
+    "text": "Why R?\n\nR is a programming and statistical language.\nR is used for data Analysis and Visualization.\nR is simple and easy to learn, read and write.\nR is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc."
+  },
+  {
+    "objectID": "index.html#learning-objectives",
+    "href": "index.html#learning-objectives",
+    "title": "Machine Learning for Bioinformatics with Python",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nAt the end of the tutorial, participants will be able to:\n\nUnderstand the Basics of Machine Learning in Bioinformatics\nPreprocess Biological Data for Machine Learning\nExplore Feature Selection and Dimensionality Reduction\nImplement Classification Algorithms\nPerform Regression Analysis on Biological Data\nUse Clustering Techniques for Pattern Discovery"
+  },
+  {
+    "objectID": "index.html#pre-requisites",
+    "href": "index.html#pre-requisites",
+    "title": "Machine Learning for Bioinformatics with Python",
+    "section": "Pre-requisites",
+    "text": "Pre-requisites\n\nNo programming knowledge is required\nBasic knowledge of bioinformatics"
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Machine Learning for Bioinformatics with Python",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\nDay\nDate\nSession Title\nTime\nInstructor\n\n\n\n\nDay 1\nDecember 1, 2023\nIntroduction to Python\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 2\nDecember 3, 2023\nScientific Computing with NumPy: Part 1\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 3\nDecember 5, 2023\nScientific Computing with NumPy: Part 2\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 4\nDecember 7, 2023\nData Wrangling with Pandas: Part 1\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 5\nDecember 9, 2023\nData Wrangling with Pandas: Part 2\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 6\nDecember 11, 2023\nData Visualization with Matplotlib and Seaborn\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 7\nDecember 13, 2023\nMachine Learning Concepts\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 8\nDecember 15, 2023\nSimplifying Machine Learning with PyCaret: Classification\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 9\nDecember 17, 2023\nSimplifying Machine Learning with PyCaret: Regression\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 10\nDecember 19, 2023\nProject\n9:00 - 10:30 PM\nMd. Jubayer Hossain"
   }
 ]

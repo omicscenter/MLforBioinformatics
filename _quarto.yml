@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "case-studies/*.qmd"
+    - "!contents/*.qmd"
+
 
 website:
   navbar:
@@ -29,12 +34,18 @@ website:
         href: https://www.linkedin.com/company/chiral-bangladesh/
     page-navigation: true
   page-footer:
-    left: "&copy; Copyright 2022, Md. Jubayer Hossain"
+    left: "&copy; Copyright 2023, Md. Jubayer Hossain"
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 format:
   html:
-    theme: yeti
+    theme: [flatly, theme.scss]
     css: styles.css
     toc: true
-editor: visual
+    toc-location: right
+    toc-title: Contents
+    code-link: true
+    code-overflow: scroll
+    mainfont: "Atkinson Hyperlegible"
+    highlight-style: a11y
+editor: source
 
